@@ -1,0 +1,16 @@
+GET http://localhost:3000/passenger
+Accept: application/json
+
+###
+
+POST http://localhost:3000/passenger
+Accept: application/json
+Content-Type: application/json
+
+{
+  "fullName": "John Doe",
+  "luggage": 2,
+  "carriage": "XL"
+}
+
+###
